@@ -1,0 +1,105 @@
+HTML {
+    font-family:Helvetica;
+}
+
+body {
+    font-size:22px;
+    color:seashell;
+    background-color:rgb(152, 104, 57);
+    opacity:0.9;
+    text-align:center;
+}
+
+header {
+    position:fixed;
+    border-bottom:1px solid seashell;
+    background-color:brown;
+    width:2900px;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    image-resolution: 50px;
+    background-size: 69px;
+    max-width: 1200px;
+    
+    
+}
+
+.Top {
+    background-image:url(img-mission-background.jpg);
+    width: 1200px;
+    height: 700px;
+    
+}
+
+.Top1 { 
+    display:flex;
+    align-items: center;
+    width: 200px;
+    height:100px;
+    margin-left:  500px;
+    background-color:black;
+    padding-top:100px;
+
+         
+}
+
+.Top2 {
+    display:flex;
+    align-items: center;
+    width: 300px;
+    height:200px;
+    margin-left:800px;     
+    background-color:black;
+}
+
+
+.TOM {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    
+    
+}
+
+.image {
+    text-align: center;
+    width: calc(33.33% - 10px);
+    margin: 5px;
+}
+
+.image img {
+    max-width: 100%;
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+}
+
+.image p {
+    margin: 5px 0;
+    font-weight:bold;
+    margin-left: 100px;
+  }
+
+
+.Locations {
+    background-image: url(img-locations-background.jpg);
+    height:500px;
+    width:1200px;
+}
+
+.Loc {
+    background-color:black;
+    width:300px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.Loc2 {
+    font-size: 40px;
+}
